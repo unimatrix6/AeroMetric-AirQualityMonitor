@@ -42,6 +42,11 @@ total price 104.12 €
 
 This monitor combines environmental sensing with a lightweight embedded controller to show air quality information in a compact form factor. It is intended as a practical and budget-friendly DIY build for home use, experiments, or further customization.
 
+## UI
+
+<img width="519" height="772" alt="Copilot_20260719_193007" src="https://github.com/user-attachments/assets/332e0b70-7993-431b-aa68-f2a53645a786" />
+
+
 ## Features
 
 - Measures air quality parameters using the SEN54 sensor
