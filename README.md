@@ -30,8 +30,11 @@ Female Pin headers 1x5
 https://tinyurl.com/femalepinheaders
 
 45.33 € amazon
+
 43.75 € reichelt
+
 15.04 € amazon
+
 total price 104.12 € 
 
 ## Project Overview
