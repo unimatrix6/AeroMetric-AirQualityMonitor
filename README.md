@@ -6,21 +6,27 @@ A compact DIY air quality monitor built around an ESP32 and a Sensirion SEN54 se
 
     
 ESP32 DevKitC
+
 https://tinyurl.com/shoppinglistesp32dev
     
 Sensirion SEN54
+
 https://tinyurl.com/sen-54-sensor
 
 4" ILI9488 SPI IPS Display  
+
 https://tinyurl.com/Ili9488-Tft
 
 Dupont Jumper Wires (Male/Female set)
+
 https://tinyurl.com/dupont-jumper-wires
 
 PerfBoard 5x7cm
+
 https://tinyurl.com/perfboard-902348
 
 Female Pin headers 1x5
+
 https://tinyurl.com/femalepinheaders
 
 45.33 € amazon
