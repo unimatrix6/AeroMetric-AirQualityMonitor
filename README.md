@@ -1,6 +1,6 @@
 # AeroMetric Air Quality Monitor
 
-<img width="512" height="512" alt="Copilot_20260710_201810" src="https://github.com/user-attachments/assets/ca75e92b-65b9-4b6c-96cf-9ca603d3a6a3" />
+<img width="256" height="256" alt="Copilot_20260710_201810" src="https://github.com/user-attachments/assets/ca75e92b-65b9-4b6c-96cf-9ca603d3a6a3" />
 
 
 A compact DIY air quality monitor built around an ESP32 and a Sensirion SEN54 sensor. The project is designed to display air quality data locally on a small color display and provide a simple, affordable platform for indoor air monitoring.
