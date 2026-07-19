@@ -46,6 +46,7 @@ This monitor combines environmental sensing with a lightweight embedded controll
 
 <img width="519" height="772" alt="Copilot_20260719_193007" src="https://github.com/user-attachments/assets/332e0b70-7993-431b-aa68-f2a53645a786" />
 
+- Offers a clean overview with visual color feedback for easy identification of air quality status
 
 ## Features
 
