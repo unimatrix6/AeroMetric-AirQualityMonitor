@@ -47,11 +47,11 @@ This monitor combines environmental sensing with a lightweight embedded controll
 
 ## UI
 
-<img width="519" height="772" alt="Copilot_20260719_193007" src="https://github.com/user-attachments/assets/332e0b70-7993-431b-aa68-f2a53645a786" />
 
+<img width="549" height="808" alt="Bildschirmfoto vom 2026-08-01 13-35-58" src="https://github.com/user-attachments/assets/781ad04f-01c7-4db5-bbbf-c89dde63351f" />
 
-- Offers a clean overview with visual color feedback for easy identification of air quality status
-- Coded in YAML with LVGL for easy integration with ESP Home
+- Sleek Modern User Interface in Bubble Look 
+- Coded in YAML with LVGL for easy integration with ESPHome
 
 ## Features
 
