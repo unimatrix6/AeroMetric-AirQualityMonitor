@@ -22,6 +22,8 @@
 | 4 | SCL | GPIO22 |
 | 5 | SEL | Short to Ground |
 
+### Building the PCB
+
 # Setting up your Device
 ### 1.Option via Homeassistant (recommended)
 1. Installing ESPHome Device Builder
