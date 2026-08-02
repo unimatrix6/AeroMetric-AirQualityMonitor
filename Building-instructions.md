@@ -24,6 +24,8 @@
 
 ### Building the PCB
 
+kkkkkkgkgk
+
 # Setting up your Device
 ### 1.Option via Homeassistant (recommended)
 1. Installing ESPHome Device Builder
