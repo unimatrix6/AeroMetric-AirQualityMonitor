@@ -65,8 +65,8 @@ This monitor combines environmental sensing with a lightweight embedded controll
 - The ESP32 acts as the main controller.
 - The SEN54 provides the environmental sensor data.
 - The ILI9488 display is used for local visualization.
-- jumper wires help keep the build neat and durable.
 - ESP Home is used for Simple Smarthome integration.
+- DIY PCB using a Perfboard keeps the Build tidy and durable.
 
 ## License
 
