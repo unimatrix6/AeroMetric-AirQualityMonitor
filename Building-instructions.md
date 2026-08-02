@@ -24,7 +24,7 @@
 
 ### Building the PCB
 
-kkkkkkgkgk
+placeholder
 
 # Setting up your Device
 ### 1.Option via Homeassistant (recommended)
