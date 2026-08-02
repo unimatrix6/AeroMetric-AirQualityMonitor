@@ -36,7 +36,9 @@ Installation may take a moment. Once done, click “Start” and then click “O
 
 2. Adding a new Device
 Click on the + New Device Button in the Bottom Left Corner
-Then Click on "Advanced set up options" and choose import from File
+Then Click on "Advanced set up options" and choose "import from File"
+
+
 
 
 
