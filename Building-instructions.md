@@ -37,8 +37,17 @@ Installation may take a moment. Once done, click “Start” and then click “O
 2. Adding a new Device
 Click on the + New Device Button in the Bottom Left Corner
 Then Click on "Advanced set up options" and choose "import from File"
+Choose the file "esphome-web-e62eec (1).yaml" located in the Firmware folder
 
+3. Uploading to your ESP32
+Connect your ESP8266 or ESP32 microcontroller directly to your computer or Home Assistant host using a data-transfer USB cable.
+Click Install on the device card.
+Choose Plug into this computer (uses your web browser's WebUSB feature) or Plug into the server (if connected directly to your Home Assistant machine).
+Select the correct COM port and wait for ESPHome to compile and flash the firmware.
 
+Note: Once this initial USB flash is complete, future updates can be sent wirelessly over-the-air (OTA) by selecting the Wirelessly installation option.
+Remember to configure WIFI either by setting a Wifi secret via ESPHome Device Builder before doing the first installation or by configuring the Wifi on web.esphome.io
 
+For More Information Visit https://esphome.io/guides/getting_started_hassio/
 
 
