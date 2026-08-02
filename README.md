@@ -45,10 +45,10 @@ total price 104.12 €
 
 This monitor combines environmental sensing with a lightweight embedded controller to show air quality information in a compact form factor. It is intended as a practical and budget-friendly DIY build for home use, experiments, or further customization.
 
-## UI
+## UI Overview
 
+<img width="684" height="938" alt="Bildschirmfoto vom 2026-08-02 15-38-39" src="https://github.com/user-attachments/assets/f81652e7-60cb-4772-84f2-40867d454035" />
 
-<img width="549" height="808" alt="Bildschirmfoto vom 2026-08-01 13-35-58" src="https://github.com/user-attachments/assets/781ad04f-01c7-4db5-bbbf-c89dde63351f" />
 
 - Sleek Modern User Interface in Bubble Look 
 - Coded in YAML with LVGL for easy integration with ESPHome
