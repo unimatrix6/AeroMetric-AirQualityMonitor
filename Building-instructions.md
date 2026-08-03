@@ -50,7 +50,7 @@ Choose Plug into this computer (uses your web browser's WebUSB feature) or Plug 
 Select the correct COM port and wait for ESPHome to compile and flash the firmware.
 
 Note: Once this initial USB flash is complete, future updates can be sent wirelessly over-the-air (OTA) by selecting the Wirelessly installation option.
-Remember to configure WIFI either by setting a Wifi secret via ESPHome Device Builder before doing the first installation or by configuring the Wifi on web.esphome.io
+Remember to configure WIFI either by setting a Wifi secret via ESPHome Device Builder before doing the first installation or by configuring the Wifi on https://web.esphome.io
 
 For More Information Visit https://esphome.io/guides/getting_started_hassio/
 
