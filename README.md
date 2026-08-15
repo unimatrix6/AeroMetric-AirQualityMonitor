@@ -69,7 +69,3 @@ This monitor combines environmental sensing with a lightweight embedded controll
 - The ILI9488 display is used for local visualization.
 - ESP Home is used for Simple Smarthome integration.
 - DIY PCB using a Perfboard keeps the Build tidy and durable.
-
-## License
-
-This project is currently a personal DIY build and may be updated as development continues.
