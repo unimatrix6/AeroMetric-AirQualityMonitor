@@ -47,7 +47,7 @@ This monitor combines environmental sensing with a lightweight embedded controll
 
 ## UI Overview
 
-<img width="584" height="838" alt="Bildschirmfoto vom 2026-08-02 15-38-39" src="https://github.com/user-attachments/assets/f81652e7-60cb-4772-84f2-40867d454035" />
+<img width="484" height="738" alt="Bildschirmfoto vom 2026-08-02 15-38-39" src="https://github.com/user-attachments/assets/f81652e7-60cb-4772-84f2-40867d454035" />
 
 
 - Sleek Modern User Interface in Bubble Look 
