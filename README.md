@@ -32,6 +32,8 @@ Female Pin headers 1x5
 
 https://tinyurl.com/femalepinheaders
 
+Some Materials may not be available in your region.
+
 ## Price list
 45.33 € amazon
 
