@@ -5,9 +5,9 @@
 
 A compact DIY air quality monitor built around an ESP32 and a Sensirion SEN54 sensor. The project is designed to display air quality data locally on a small color display and provide a simple, affordable platform for indoor air monitoring.
 
+## 📊Recommended HA cards 
 
-
-
+Nodalia Cards 
 
 ## Materials
 
