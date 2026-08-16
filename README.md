@@ -7,7 +7,7 @@ A compact DIY air quality monitor built around an ESP32 and a Sensirion SEN54 se
 
 ## 📊Recommended HA cards 
 
-Nodalia Cards 
+<img src="https://raw.githubusercontent.com/danielmigueltejedor/nodalia-cards/main/docs/images/nodalia-cards-header.png" alt="Nodalia Cards" width="350">
 
 ## Materials
 
