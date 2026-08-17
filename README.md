@@ -9,7 +9,7 @@ A compact DIY air quality monitor built around an ESP32 and a Sensirion SEN54 se
 
 <img src="https://raw.githubusercontent.com/danielmigueltejedor/nodalia-cards/main/docs/images/nodalia-cards-header.png" alt="Nodalia Cards" width="350">
 
-## Materials
+## 🛠️Materials
 
     
 ESP32 DevKitC
@@ -51,13 +51,15 @@ total price 104.12 €
 
 This monitor combines environmental sensing with a lightweight embedded controller to show air quality information in a compact form factor. It is intended as a practical and budget-friendly DIY build for home use, experiments, or further customization.
 
-## UI Overview
+## 🎨 UI Overview
 
-<img width="484" height="738" alt="Bildschirmfoto vom 2026-08-02 15-38-39" src="https://github.com/user-attachments/assets/f81652e7-60cb-4772-84f2-40867d454035" />
+<img width="546" height="802" alt="Bildschirmfoto vom 2026-08-17 13-27-56" src="https://github.com/user-attachments/assets/f8021d07-dbe8-47d6-a0a5-a18701e1369c" />
 
 
-- Sleek Modern User Interface in Bubble Look 
+
+- Sleek Modern User Interface in the Look of Nodalia Cards
 - Coded in YAML with LVGL for easy integration with ESPHome
+- Easy identification of values
 
 ## Features
 
