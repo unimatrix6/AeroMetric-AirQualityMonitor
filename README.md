@@ -24,6 +24,7 @@ ESP32 DevKitC
 https://tinyurl.com/shoppinglistesp32dev
     
 Sensirion SEN54 + Cables (needs to be bought extra)
+
 https://tinyurl.com/sen-54-sensor
 
 4" ILI9488 SPI IPS Display  
