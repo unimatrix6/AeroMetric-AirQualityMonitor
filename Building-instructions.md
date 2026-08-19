@@ -26,10 +26,10 @@
 I am very sorry for not including a wiring diagram. I am not skilled enough for that. Hopefully the tables and the following pictures are enough 
 
 
-<img width="992" height="1724" alt="20260819_181731" src="https://github.com/user-attachments/assets/11a1a81f-dcb6-4bdf-b33c-d0a55a9e447d" />
+<img width="792" height="1524" alt="20260819_181731" src="https://github.com/user-attachments/assets/11a1a81f-dcb6-4bdf-b33c-d0a55a9e447d" />
 
 
-<img width="1005" height="1576" alt="20260819_181749" src="https://github.com/user-attachments/assets/f5f3015b-9f95-441a-858e-5c121d3d2f3c" />
+<img width="805" height="1376" alt="20260819_181749" src="https://github.com/user-attachments/assets/f5f3015b-9f95-441a-858e-5c121d3d2f3c" />
 
 
 # Setting up your Device
