@@ -41,6 +41,10 @@ Some Materials may not be available in your region.
 
 Estimated Cost: 110€
 
+## Building
+[![Building instructions](https://img.shields.io/badge/Nodalia%20Cards-blue)](https://github.com/unimatrix6/AeroMetric-AirQualityMonitor/blob/main/Building-instructions.md)
+
+
 
 ## Project Overview
 
