@@ -59,4 +59,11 @@ Remember to configure WIFI either by setting a Wifi secret via ESPHome Device Bu
 
 For More Information Visit https://esphome.io/guides/getting_started_hassio/
 
+### 2. Option via Desktop app
+
+1. go to https://esphome.io/install/
+2. install the version that you need for your operating System
+3. When you first launch the ESPHome Device Builder on macOS, Windows, or Linux, it automatically configures its built-in Python environment in the background and opens the dashboard in your default browser. For quick access, the ESPHome icon nests into your macOS menu bar, Windows notification area, or Linux system tray. From this icon, you can instantly open the dashboard, check for updates, or close the app. NOTE: Some Linux desktops (notably GNOME without a tray extension) don’t show tray icons at all. The app still runs; use the dashboard in your browser.
+4. then just set up your device just like described in Option 1
+
 
