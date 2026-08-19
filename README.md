@@ -19,44 +19,32 @@ A compact DIY air quality monitor built around an ESP32 and a Sensirion SEN54 se
 ## 🛠️Materials
 
     
-ESP32 DevKitC
+ESP-Wroom-32 DevKit
 
-https://tinyurl.com/shoppinglistesp32dev
     
 Sensirion SEN54 + Cables (needs to be bought extra)
 
-https://tinyurl.com/sen-54-sensor
 
-4" ILI9488 SPI IPS Display  
+3.5" ILI9488 SPI IPS Display  
 
-https://tinyurl.com/Ili9488-Tft
 
-Dupont Jumper Wires (Male/Female set)
+Dupont Jumper Wires (Female/Female)
 
-https://tinyurl.com/dupont-jumper-wires
 
 PerfBoard 5x7cm
 
-https://tinyurl.com/perfboard-902348
 
-Female Pin headers 1x5
+(Female/Male) Pin header Set
 
-https://tinyurl.com/femalepinheaders
 
 Some Materials may not be available in your region.
 
-## Price list
-45.33 € amazon
+Estimated Cost: 110€
 
-43.75 € reichelt
-
-15.04 € amazon
-
-total price 104.12 € 
 
 ## Project Overview
 
-This monitor combines environmental sensing with a lightweight embedded controller to show air quality information in a compact form factor. It is intended as a practical and budget-friendly DIY build for home use, experiments, or further customization.
+This monitor combines environmental sensing with a lightweight embedded controller to show air quality information in a compact form factor. It is intended as a practical and budget-friendly DIY build for home use, experiments, or further customization. It features a sleek and modern UI.
 
 ## 🎨 UI Overview
 
@@ -64,7 +52,7 @@ This monitor combines environmental sensing with a lightweight embedded controll
 
 
 
-- Sleek Modern User Interface in the Look of Nodalia Cards
+- Sleek Modern User Interface
 - Coded in YAML with LVGL for easy integration with ESPHome
 - Easy identification of values
 
