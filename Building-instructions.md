@@ -1,4 +1,4 @@
-# Wiring
+# 🔌️Wiring
 ### Display
 
 | Display Pin | ESP32 Pin |
