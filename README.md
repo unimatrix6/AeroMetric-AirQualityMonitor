@@ -28,7 +28,7 @@ Sensirion SEN54 + Cables (needs to be bought extra)
 3.5" ILI9488 SPI IPS Display  
 
 
-Dupont Jumper Wires (Female/Female)
+Dupont Jumper Wires (Female->Female)
 
 
 PerfBoard 5x7cm
@@ -36,8 +36,6 @@ PerfBoard 5x7cm
 
 (Female/Male) Pin header Set
 
-
-Some Materials may not be available in your region.
 
 Estimated Cost: 110€
 
