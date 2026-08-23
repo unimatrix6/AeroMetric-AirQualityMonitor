@@ -52,21 +52,25 @@ https://github.com/unimatrix6/AeroMetric-AirQualityMonitor/blob/main/Building-in
 This monitor combines environmental sensing with a lightweight embedded controller to show air quality information in a compact form factor. It is intended as a practical and budget-friendly DIY build for home use, experiments, or further customization. It features a sleek and modern UI.
 
 ## 🎨 UI Overview
+<img width="542" height="813" alt="Bildschirmfoto vom 2026-08-23 19-02-36" src="https://github.com/user-attachments/assets/0935fea0-8db4-49f8-9ae0-aed605d05b99" />
 
-<img width="546" height="802" alt="Bildschirmfoto vom 2026-08-17 13-27-56" src="https://github.com/user-attachments/assets/f8021d07-dbe8-47d6-a0a5-a18701e1369c" />
+
 
 
 
 - Sleek Modern User Interface
 - Coded in YAML with LVGL for easy integration with ESPHome
 - Easy identification of values
+- Visual Feedback of Air Quality Index
+
+### Note
+You can always change the UI by making your own one and replacing the canvas_1 code with your own. just remember to keep the IDs of the labels
 
 ## Features
 
 - Measures air quality parameters using the SEN54 sensor
 - Displays readings on a color TFT screen
 - Runs on an ESP32 for Wi-Fi and embedded processing
-- Easy to expand with additional sensors or networking features
 
 ## Build Notes
 
