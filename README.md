@@ -36,8 +36,16 @@ PerfBoard 5x7cm
 
 (Female/Male) Pin header Set
 
+3D Printer filament (PLA/PETG)
+I used Bavaria Filaments Seidenmatt PLA black for that black matte finish
+(Bavaria Filaments only ships within Germany and to member states of the European Union)
 
-Estimated Cost: 110€
+### Important Note
+Only use PLA or PETG, Filaments since other filaments leak more Volatile Organic Compounds, which causes the sensor to display wrong VOC values
+
+
+
+Estimated Cost: 120€
 
 ## Building your device
 Click the link for building instruction
