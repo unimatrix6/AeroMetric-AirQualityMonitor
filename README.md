@@ -1,6 +1,7 @@
-# AeroMetric Air Quality Monitor
-<img width="253" height="250" alt="Bildschirmfoto vom 2026-08-29 22-39-56" src="https://github.com/user-attachments/assets/d812e56b-d067-40e6-94e1-3e89460618ef" />
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d812e56b-d067-40e6-94e1-3e89460618ef" alt="Alt text" width="330">
+</p>
 
 
 A compact DIY air quality monitor built around an ESP32 and a Sensirion SEN54 sensor. The project is designed to display air quality data locally on a small color display and provide a simple, affordable platform for indoor air monitoring.
