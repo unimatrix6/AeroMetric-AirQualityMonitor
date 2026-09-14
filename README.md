@@ -71,7 +71,7 @@ This monitor combines environmental sensing with a lightweight embedded controll
 - Visual Feedback of Air Quality Index
 
 ### Note
-You can always change the UI by making your own one and replacing the canvas_1 code with your own. just remember to keep the IDs of the labels
+You can always change the UI by making your own one and replacing the canvas_1 code block with your own. just remember to keep the IDs of the labels
 
 ## Features
 
