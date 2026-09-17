@@ -41,6 +41,8 @@ PerfBoard 5x7cm
 I used Bavaria Filaments Seidenmatt PLA black for that black matte finish
 (Bavaria Filaments only ships within Germany and to member states of the European Union)
 
+4x M3 Screws and nuts
+
 ### Important Note
 Only use PLA or PETG, Filaments since other filaments leak more Volatile Organic Compounds, which causes the sensor to display wrong VOC values
 
