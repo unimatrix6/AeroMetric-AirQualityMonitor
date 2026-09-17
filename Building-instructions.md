@@ -46,7 +46,7 @@ Installation may take a moment. Once done, click “Start” and then click “O
 2. Adding a new Device
 Click on the + New Device Button in the Bottom Left Corner
 Then Click on "Advanced set up options" and choose "import from File"
-Choose the file "esphome-web-e62eec (1).yaml" located in the Firmware folder
+Choose the file "AeroMetric-AQM-firmware" located in the Firmware folder
 
 3. Uploading to your ESP32
 Connect your ESP8266 or ESP32 microcontroller directly to your computer or Home Assistant host using a data-transfer USB cable.
