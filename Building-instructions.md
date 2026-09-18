@@ -30,6 +30,9 @@ I am very sorry for not including a wiring diagram. I am not skilled enough for 
   <img src="https://github.com/user-attachments/assets/11a1a81f-dcb6-4bdf-b33c-d0a55a9e447d" alt="Alt text" width="330">
 </p>
 
+# 🖨3D printing your Enclosure
+
+
 # Setting up your Device
 ### 1.Option via Homeassistant (recommended)
 1. Installing ESPHome Device Builder
