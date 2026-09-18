@@ -22,12 +22,11 @@
 | 4 | SCL | GPIO22 |
 | 5 | SEL | Short to Ground |
 
-### Building the PCB
+# 🔧Building the PCB
 I am very sorry for not including a wiring diagram. I am not skilled enough for that. Hopefully the tables and the following pictures are enough 
 
 
 <img width="792" height="1524" alt="20260819_181731" src="https://github.com/user-attachments/assets/11a1a81f-dcb6-4bdf-b33c-d0a55a9e447d" />
-
 
 
 
