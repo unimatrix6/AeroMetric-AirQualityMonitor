@@ -195,7 +195,6 @@ output:
     pin: GPIO33
     id: Display_brightness
 
-# Example usage in a light
 light:
   - platform: monochromatic
     output: Display_brightness
@@ -227,8 +226,7 @@ time:
 
 
 
-# >>> LVGL Designer - generated from the canvas. >>>
-# This block is regenerated from the canvas — edits here are not preserved.
+
 font:
   - file:
       url: "https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/fonts/materialdesignicons-webfont.ttf"
@@ -711,4 +709,3 @@ lvgl:
                   text: "--"
                   text_color: 0xC7C7C7
                   text_font: montserrat_44
-# <<< end LVGL Designer block <<<
