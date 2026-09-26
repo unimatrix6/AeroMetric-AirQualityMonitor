@@ -60,8 +60,7 @@ https://github.com/unimatrix6/AeroMetric-AirQualityMonitor/blob/main/Building-in
 This monitor combines environmental sensing with a lightweight embedded controller to show air quality information in a compact form factor. It is intended as a practical and budget-friendly DIY build for home use, experiments, or further customization. It features a sleek and modern UI.
 
 ## 🎨 UI Overview
-<img width="542" height="813" alt="Bildschirmfoto vom 2026-08-23 19-02-36" src="https://github.com/user-attachments/assets/0935fea0-8db4-49f8-9ae0-aed605d05b99" />
-
+<img width="540" height="812" alt="Bildschirmfoto vom 2026-09-26 19-52-08" src="https://github.com/user-attachments/assets/980e41b8-ac67-4114-b52e-bbe206ad9f84" />
 
 
 
