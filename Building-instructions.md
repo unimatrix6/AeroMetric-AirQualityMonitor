@@ -27,8 +27,12 @@ I am very sorry for not including a wiring diagram. I am not skilled enough for 
 
 
 <p align="left">
-  <img src="https://github.com/user-attachments/assets/11a1a81f-dcb6-4bdf-b33c-d0a55a9e447d" alt="Alt text" width="330">
+  <img src="https://github.com/user-attachments/assets/27a71363-d9c9-42eb-b477-6109597c1e4b" alt="Alt text" width="330">
 </p>
+<p align="left">
+  <img src="https://github.com/user-attachments/assets/0ec88f09-ffcd-4f96-9706-148b13416ba7" alt="Alt text" width="330">
+</p>
+
 
 # 🖨3D printing your Enclosure
 
