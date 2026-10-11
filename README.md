@@ -2,7 +2,7 @@
   <img src="https://github.com/user-attachments/assets/cbc595d9-ddbe-4b84-b674-9297b1a4d8a2" alt="Aerometric logo" width="330">
 </p>
 
-> [!Warning]
+> [!Note]
 > **PROJECT NOT FINISHED!**
 >  Project is still in the works!
 >  Files for Enclosure are missing!
