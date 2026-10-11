@@ -33,9 +33,10 @@ I am very sorry for not including a wiring diagram. I am not skilled enough for 
   <img src="https://github.com/user-attachments/assets/0ec88f09-ffcd-4f96-9706-148b13416ba7" alt="Alt text" width="330">
 </p>
 
-> [!IMPORTANT]
+> [!Caution]
 > Check for unwanted Short circuits either with a multimeter or by shining a flashlight through on the back of the circuit board.
-
+> Short circuits CAN and WILL break you ESP32, display and sensor beyond repair!
+ 
 
 # 🖨3D printing your Enclosure
 
