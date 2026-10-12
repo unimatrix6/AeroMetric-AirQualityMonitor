@@ -10,6 +10,8 @@
 
 DIY air quality monitor built around an ESP32 and a Sensirion SEN54 sensor. The project is designed to display air quality data locally on a small color display and provide a simple, affordable platform for indoor air monitoring.
 
+
+## 🖼️Project images
 <p align="center">
   <img src="https://github.com/user-attachments/assets/283653aa-8a29-48b6-9714-b28e95ace5cd" alt="Aerometric-Blende-Model" width="550">
 </p>
