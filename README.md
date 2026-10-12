@@ -12,7 +12,7 @@ DIY air quality monitor built around an ESP32 and a Sensirion SEN54 sensor. The 
 
 
 ## 🖼️Project images
-<p align="center">
+<p align="left">
   <img src="https://github.com/user-attachments/assets/283653aa-8a29-48b6-9714-b28e95ace5cd" alt="Aerometric-Blende-Model" width="550">
 </p>
 
