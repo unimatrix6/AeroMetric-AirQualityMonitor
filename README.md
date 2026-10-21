@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/cbc595d9-ddbe-4b84-b674-9297b1a4d8a2" alt="Aerometric logo" width="330">
+  <img src="https://github.com/user-attachments/assets/f97730a7-9510-4c8c-9340-e3a9e7b81597" alt="Aerometric logo" width="330">
 </p>
 
 > [!Note]
