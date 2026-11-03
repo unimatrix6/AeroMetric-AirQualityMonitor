@@ -25,7 +25,7 @@
 # 🔧Building the PCB
 
 ```mermaid
-graph TD
+flowchart TD
     subgraph Power ["Power Supply"]
         USB_C["5V 1A Phone Charger"]
     end
