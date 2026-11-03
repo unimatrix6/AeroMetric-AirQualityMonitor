@@ -23,7 +23,7 @@
 | 5 | SEL | Short to Ground |
 
 # 🔧Building the PCB
-I am very sorry for not including a wiring diagram. I am not skilled enough for that. Hopefully the tables and the following pictures are enough 
+ 
 
 
 <p align="left">
