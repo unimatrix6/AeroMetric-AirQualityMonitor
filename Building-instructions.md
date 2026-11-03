@@ -23,7 +23,60 @@
 | 5 | SEL | Short to Ground |
 
 # 🔧Building the PCB
- 
+ ```mermaid
+graph TD
+    subgraph ESP32 ["ESP32 Microcontroller"]
+        5V["5V"]
+        GND["GND"]
+        GPIO5["GPIO5"]
+        GPIO16["GPIO16"]
+        GPIO17["GPIO17"]
+        GPIO18["GPIO18"]
+        GPIO19["GPIO19"]
+        GPIO21["GPIO21"]
+        GPIO22["GPIO22"]
+        GPIO23["GPIO23"]
+        GPIO33["GPIO33"]
+    end
+
+    subgraph Display ["Display Panel"]
+        DVCC["VCC"]
+        DGND["GND"]
+        DCS["CS"]
+        DRESET["Reset"]
+        DDC["DC / RS"]
+        DMOSI["SDI (MOSI)"]
+        DSCK["SCK"]
+        DLED["LED"]
+        DMISO["SDO (MISO)"]
+    end
+
+    subgraph Sensor ["Sensor Module"]
+        SVDD["1: VDD"]
+        SGND["2: GND"]
+        SSDA["3: SDA"]
+        SSCL["4: SCL"]
+        SSEL["5: SEL"]
+    end
+
+    %% Display Connections
+    5V --> DVCC
+    GND --> DGND
+    GPIO5 --> DCS
+    GPIO17 --> DRESET
+    GPIO16 --> DDC
+    GPIO23 --> DMOSI
+    GPIO18 --> DSCK
+    GPIO33 --> DLED
+    GPIO19 --> DMISO
+
+    %% Sensor Connections
+    5V --> SVDD
+    GND --> SGND
+    GPIO21 --> SSDA
+    GPIO22 --> SSCL
+    SGND --- SSEL
+```
 
 
 <p align="left">
