@@ -23,15 +23,16 @@
 | 5 | SEL | Short to Ground |
 
 # 🔧Building the PCB
- ```mermaid
-graph TD
 
-subgraph Power ["Power Supply"]
+### Pin Mapping & Wiring Diagram
+
+```mermaid
+graph TD
+    subgraph Power ["Power Supply"]
         USB["5V Phone Charger"]
     end
 
-
-subgraph ESP32 ["ESP32 Microcontroller"]
+    subgraph ESP32 ["ESP32 Microcontroller"]
         5V["5V"]
         GND["GND"]
         GPIO5["GPIO5"]
@@ -64,6 +65,9 @@ subgraph ESP32 ["ESP32 Microcontroller"]
         SSCL["4: SCL"]
         SSEL["5: SEL"]
     end
+
+    %% Power Source to ESP32
+    USB --> 5V
 
     %% Display Connections
     5V --> DVCC
