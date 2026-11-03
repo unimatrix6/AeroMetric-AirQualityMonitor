@@ -24,16 +24,15 @@
 
 # 🔧Building the PCB
 
-### Pin Mapping & Wiring Diagram
-
 ```mermaid
 graph TD
     subgraph Power ["Power Supply"]
-        USB["5V Phone Charger"]
+        USB_C["5V 1A Phone Charger"]
     end
 
     subgraph ESP32 ["ESP32 Microcontroller"]
-        5V["5V"]
+        USB_IN["USB Port"]
+        5V["5V Out"]
         GND["GND"]
         GPIO5["GPIO5"]
         GPIO16["GPIO16"]
@@ -66,8 +65,8 @@ graph TD
         SSEL["5: SEL"]
     end
 
-    %% Power Source to ESP32
-    USB --> 5V
+    %% Power Routing
+    USB_C --> USB_IN
 
     %% Display Connections
     5V --> DVCC
@@ -87,6 +86,7 @@ graph TD
     GPIO22 --> SSCL
     SGND --- SSEL
 ```
+
 
 
 <p align="left">
