@@ -25,7 +25,13 @@
 # 🔧Building the PCB
  ```mermaid
 graph TD
-    subgraph ESP32 ["ESP32 Microcontroller"]
+
+subgraph Power ["Power Supply"]
+        USB["5V Phone Charger"]
+    end
+
+
+subgraph ESP32 ["ESP32 Microcontroller"]
         5V["5V"]
         GND["GND"]
         GPIO5["GPIO5"]
