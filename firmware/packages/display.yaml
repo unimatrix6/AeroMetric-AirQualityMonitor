@@ -1,3 +1,23 @@
+esphome:
+  on_boot:
+    then:
+      - delay: 10s
+      - lvgl.page.show: canvas_1
+
+wifi:
+  on_connect:
+    then:
+      - lvgl.label.update:
+          id: wifi_icon
+          text_color: 0xCCCCCC  # White when connected
+  on_disconnect:
+    then:
+      - lvgl.label.update:
+          id: wifi_icon
+          text_color: 0xff0000  # Red when disconnected
+
+
+
 spi:
   - clk_pin: GPIO18
     id: spi_1
