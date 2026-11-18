@@ -54,3 +54,6 @@ time:
 
 
 mdns:
+
+bluetooth_proxy:
+  active: true
