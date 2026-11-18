@@ -1,0 +1,128 @@
+i2c:
+  - scl: 22
+    sda: 21
+    id: i2c_1
+
+sensor:
+  - platform: sen5x
+    id: sensor_sen5x_1
+    i2c_id: i2c_1
+
+    humidity:
+      id: sensor_sen5x_1_humidity
+      name: "Humidity"
+      on_value:
+        then:
+          - lvgl.label.update:
+              id: rh_value_lvgl
+              text: !lambda |-
+                static char buf[16];
+                snprintf(buf, sizeof(buf), "%.0f", x);
+                return buf;
+
+    pm_10_0:
+      id: sensor_sen5x_1_pm_10_0
+      name: "PM 10.0"
+      on_value:
+        then:
+          - lvgl.label.update:
+              id: pm10_value_lvgl
+              text: !lambda |-
+                static char buf[16];
+                snprintf(buf, sizeof(buf), "%.0f", x);
+                return buf;
+
+    pm_1_0:
+      id: sensor_sen5x_1_pm_1_0
+      name: "PM 1.0"
+      on_value:
+        then:
+          - lvgl.label.update:
+              id: pm1_value_lvgl
+              text: !lambda |-
+                static char buf[16];
+                snprintf(buf, sizeof(buf), "%.0f", x);
+                return buf;
+
+    pm_2_5:
+      id: sensor_sen5x_1_pm_2_5
+      name: "PM 2.5"
+      on_value:
+        then:
+          - lvgl.label.update:
+              id: pm25_value_lvgl
+              text: !lambda |-
+                static char buf[16];
+                snprintf(buf, sizeof(buf), "%.0f", x);
+                return buf;
+
+    pm_4_0:
+      id: sensor_sen5x_1_pm_4_0
+      name: "PM 4.0"
+      on_value:
+        then:
+          - lvgl.label.update:
+              id: pm4_value_lvgl
+              text: !lambda |-
+                static char buf[16];
+                snprintf(buf, sizeof(buf), "%.0f", x);
+                return buf;
+
+    temperature:
+      id: sensor_sen5x_1_temperature
+      name: "Temperature"
+      on_value:
+        then:
+          - lvgl.label.update:
+              id: temp_value_lvgl
+              text: !lambda |-
+                static char buf[16];
+                snprintf(buf, sizeof(buf), "%.0f", x);
+                return buf;
+
+    voc_index:
+      id: sensor_sen5x_1_voc
+      name: "VOC Index"
+      on_value:
+        then:
+          - lvgl.label.update:
+              id: vocs_value_lvgl
+              text: !lambda |-
+                static char buf[16];
+                snprintf(buf, sizeof(buf), "%.0f", x);
+                return buf;
+ 
+  - platform: aqi
+    name: AQI
+    calculation_type: CAQI
+    pm_10_0: sensor_sen5x_1_pm_10_0
+    pm_2_5: sensor_sen5x_1_pm_2_5
+    id: sensor_aqi_1
+    icon: "mdi:leaf"
+    on_value:
+      then:
+        - lvgl.label.update:
+            id: aqi_value_lvgl
+            text: !lambda |-
+              static char buf[16];
+              snprintf(buf, sizeof(buf), "%.0f", x);
+              return buf;
+              
+        - lambda: |-
+            if (x < 25.0) {
+              lv_label_set_text(id(aqi_fb), "Good");
+            } else if (x < 75.0) {
+              lv_label_set_text(id(aqi_fb), "Med");
+            } else {
+              lv_label_set_text(id(aqi_fb), "Bad");
+            } 
+        - lvgl.arc.update:
+            id: aqi_arc
+            value: !lambda return x;
+            indicator:
+              arc_color: !lambda |-
+                if (x <= 25) return lv_color_hex(0x19F085);
+                if (x <= 50) return lv_color_hex(0xA8E05F);
+                if (x <= 75) return lv_color_hex(0xFDD64B);
+                if (x <= 100) return lv_color_hex(0xFF9B57);
+                return lv_color_hex(0xFE6A69);
