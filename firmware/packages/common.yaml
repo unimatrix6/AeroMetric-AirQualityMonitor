@@ -29,4 +29,28 @@ wifi:
   ap:
     ssid: "AeroMetric-Setuphotspot"
 
+time:
+  - platform: sntp
+    id: my_time
+    timezone: "Europe/Berlin"
+    update_interval: 1min
+    on_time:
+      # This triggers exactly every minute when the seconds hit 00
+      - seconds: 0
+        then:
+          - lvgl.label.update:
+              id: time_label
+              text: !lambda |-
+                static char buf[16];
+                auto time_now = id(my_time).now();
+                if (time_now.is_valid()) {
+                  // Format: HH:MM (Hours and Minutes)
+                  strftime(buf, sizeof(buf), "%H:%M", localtime(&time_now.timestamp));
+                  return std::string(buf);
+                } else {
+                  return std::string("Connecting...");
+                }
+
+
+
 mdns:
