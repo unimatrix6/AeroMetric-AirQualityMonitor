@@ -23,7 +23,7 @@ DIY air quality monitor built around an ESP32 and a Sensirion SEN54 sensor. The 
 
 
 <a href="https://github.com/danielmigueltejedor/nodalia-cards">
-  <img src="https://raw.githubusercontent.com/danielmigueltejedor/nodalia-cards/main/docs/images/nodalia-cards-logo-trimmed.png" alt="Nodalia Cards" width="350">
+  <img src="https://raw.githubusercontent.com/danielmigueltejedor/nodalia-cards/main/docs/images/nodalia-cards-logo-black.svg" alt="Nodalia Cards" width="350">
 </a>
 
 
