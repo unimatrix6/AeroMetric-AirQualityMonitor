@@ -91,13 +91,13 @@ sensor:
                 static char buf[16];
                 snprintf(buf, sizeof(buf), "%.0f", x);
                 return buf;
-
+ 
   - platform: aqi
-    id: sensor_aqi_1
-    name: "AQI"
+    name: AQI
     calculation_type: CAQI
     pm_10_0: sensor_sen5x_1_pm_10_0
     pm_2_5: sensor_sen5x_1_pm_2_5
+    id: sensor_aqi_1
     icon: "mdi:leaf"
     on_value:
       then:
@@ -107,15 +107,22 @@ sensor:
               static char buf[16];
               snprintf(buf, sizeof(buf), "%.0f", x);
               return buf;
+              
         - lambda: |-
             if (x < 25.0) {
-              lv_obj_set_style_outline_color(id(aqi_ring), lv_color_hex(0x00E5FF), LV_STATE_DEFAULT);
               lv_label_set_text(id(aqi_fb), "Good");
             } else if (x < 75.0) {
-              lv_obj_set_style_outline_color(id(aqi_ring), lv_color_hex(0xFFFF00), LV_STATE_DEFAULT);
               lv_label_set_text(id(aqi_fb), "Med");
             } else {
-              lv_obj_set_style_outline_color(id(aqi_ring), lv_color_hex(0xFF0000), LV_STATE_DEFAULT);
               lv_label_set_text(id(aqi_fb), "Bad");
-            }
-
+            } 
+        - lvgl.arc.update:
+            id: aqi_arc
+            value: !lambda return x;
+            indicator:
+              arc_color: !lambda |-
+                if (x <= 25) return lv_color_hex(0x19F085);
+                if (x <= 50) return lv_color_hex(0xA8E05F);
+                if (x <= 75) return lv_color_hex(0xFDD64B);
+                if (x <= 100) return lv_color_hex(0xFF9B57);
+                return lv_color_hex(0xFE6A69);
