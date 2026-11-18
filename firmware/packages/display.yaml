@@ -34,3 +34,439 @@ light:
     name: Display_Brightness
     restore_mode: RESTORE_DEFAULT_ON
 
+image:
+  - file: "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/esphome.png"
+    id: img_esphome
+    resize: 145x135
+    type: RGB565
+
+ 
+                
+font:
+
+  - file:
+      url: "https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/fonts/materialdesignicons-webfont.ttf"
+      type: web
+    id: mdi_icons_25
+    size: 25
+    glyphs: [
+      "\U000F0928",  # Wifi Strength 4
+      ]
+  
+  - file:
+      type: gfonts
+      family: Montserrat
+      weight: 500
+    id: montserrat_25
+    size: 25
+    bpp: 4
+    glyphsets: [GF_Latin_Core]
+    
+  - file:
+      type: gfonts
+      family: Comfortaa
+      weight: 700
+    id: comfortaa_18b
+    size: 18
+    bpp: 4
+    glyphsets: [GF_Latin_Core]
+
+  - file:
+      url: "https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/fonts/materialdesignicons-webfont.ttf"
+      type: web
+    id: mdi_icons_19
+    size: 19
+    glyphs: [
+      "\U000F0928",  # Wifi Strength 4
+    ]
+
+   
+    
+lvgl:
+      
+  pages:
+    
+    - id: loading_screen
+      bg_color: 0x000000
+      pad_all: 0
+      scrollbar_mode: "OFF"
+      widgets:
+        - image:
+            id: lv_image_38
+            x: 88
+            y: 125
+            width: 145
+            height: 135
+            src: img_esphome
+
+        - spinner:
+            id: lv_spinner_40
+            x: 113
+            y: 285
+            width: 95
+            height: 105
+            spin_time: 1000ms
+            arc_length: 60deg
+            indicator:
+              arc_color: 0x18BCF2
+              arc_width: 12
+
+        - label:
+            id: lv_label_41
+            x: 60
+            y: 415
+            width: 200
+            height: 30
+            text: "Setting up..."
+            text_color: 0xFFFFFF
+            text_align: CENTER
+            text_font: montserrat_25
+
+
+  
+    
+    - id: canvas_1
+      bg_color: 0x000000
+      pad_all: 0
+      scrollbar_mode: "OFF"
+      widgets:
+        - obj:
+            id: widget_1787496514562_q4lxiez2e
+            x: 0
+            y: 225
+            width: 100
+            height: 80
+            bg_color: 0xFFFFFF
+            bg_opa: 0%
+            border_width: 0
+            border_color: 0xE0E0E0
+            radius: 0
+            pad_all: 0
+            widgets:
+              - label:
+                  id: widget_1787496514563_8zx34nkyi
+                  x: 5
+                  y: 0
+                  width: 90
+                  height: 22
+                  text: "Temp"
+                  text_color: 0xFAFAFA
+                  text_align: AUTO
+                  text_font: montserrat_16
+                  opa: 65%
+              - label:
+                  id: temp_value_lvgl
+                  x: 5
+                  y: 33
+                  width: 65
+                  height: 35
+                  text: "--"
+                  text_color: 0xFAFAFA
+                  text_align: AUTO
+                  text_font: montserrat_26
+              - label:
+                  id: widget_1787496618359_lo67va8yw
+                  x: 60
+                  y: 33
+                  width: 35
+                  height: 35
+                  text: "°"
+                  text_color: 0xFAFAFA
+                  text_align: AUTO
+                  text_font: montserrat_26
+
+        - obj:
+            id: widget_1787496719710_79ghd1ggs
+            x: 110
+            y: 225
+            width: 100
+            height: 80
+            bg_color: 0xFFFFFF
+            bg_opa: 0%
+            border_width: 0
+            border_color: 0xE0E0E0
+            radius: 0
+            pad_all: 0
+            widgets:
+              - label:
+                  id: widget_1787496719710_yz4xkhm6f
+                  x: 5
+                  y: 0
+                  width: 90
+                  height: 22
+                  text: "RH"
+                  text_color: 0xFAFAFA
+                  text_align: AUTO
+                  text_font: montserrat_16
+                  opa: 65%
+              - label:
+                  id: rh_value_lvgl
+                  x: 5
+                  y: 33
+                  width: 65
+                  height: 35
+                  text: "--"
+                  text_color: 0xFAFAFA
+                  text_align: AUTO
+                  text_font: montserrat_26
+              - label:
+                  id: widget_1787496719710_sydfzpgqo
+                  x: 60
+                  y: 33
+                  width: 35
+                  height: 35
+                  text: "%"
+                  text_color: 0xFAFAFA
+                  text_align: AUTO
+                  text_font: montserrat_24
+
+        - obj:
+            id: widget_1787496728558_wfav05ge6
+            x: 220
+            y: 225
+            width: 100
+            height: 80
+            bg_color: 0xFFFFFF
+            bg_opa: 0%
+            border_width: 0
+            border_color: 0xE0E0E0
+            radius: 0
+            pad_all: 0
+            widgets:
+              - label:
+                  id: widget_1787496728558_7zi6cnpl5
+                  x: 5
+                  y: 0
+                  width: 90
+                  height: 22
+                  text: "VOC"
+                  text_color: 0xFAFAFA
+                  text_align: AUTO
+                  text_font: montserrat_16
+                  opa: 65%
+              - label:
+                  id: vocs_value_lvgl
+                  x: 5
+                  y: 33
+                  width: 65
+                  height: 35
+                  text: "--"
+                  text_color: 0xFAFAFA
+                  text_align: AUTO
+                  text_font: montserrat_26
+
+        - obj:
+            id: widget_1787496793356_ejubs45p7
+            x: 0
+            y: 305
+            width: 160
+            height: 80
+            bg_color: 0xFFFFFF
+            bg_opa: 0%
+            border_width: 0
+            border_color: 0xE0E0E0
+            radius: 0
+            pad_all: 0
+            widgets:
+              - label:
+                  id: widget_1787496793356_kjqskkdz0
+                  x: 5
+                  y: 0
+                  width: 95
+                  height: 22
+                  text: "PM 1.0"
+                  text_color: 0xFAFAFA
+                  text_align: AUTO
+                  text_font: montserrat_16
+                  opa: 65%
+              - label:
+                  id: pm1_value_lvgl
+                  x: 5
+                  y: 35
+                  width: 65
+                  height: 35
+                  text: "--"
+                  text_color: 0xFAFAFA
+                  text_align: AUTO
+                  text_font: montserrat_26
+
+        - obj:
+            id: widget_1787496820091_65xyurwpi
+            x: 160
+            y: 305
+            width: 160
+            height: 80
+            bg_color: 0xFFFFFF
+            bg_opa: 0%
+            border_width: 0
+            border_color: 0xE0E0E0
+            radius: 0
+            pad_all: 0
+            widgets:
+              - label:
+                  id: widget_1787496820091_wtmy101hg
+                  x: 5
+                  y: 0
+                  width: 95
+                  height: 22
+                  text: "PM 2.5"
+                  text_color: 0xFAFAFA
+                  text_align: AUTO
+                  text_font: montserrat_16
+                  opa: 65%
+              - label:
+                  id: pm25_value_lvgl
+                  x: 5
+                  y: 33
+                  width: 65
+                  height: 35
+                  text: "--"
+                  text_color: 0xFAFAFA
+                  text_align: AUTO
+                  text_font: montserrat_26
+
+        - obj:
+            id: widget_1787496878821_0s5qef75e
+            x: 160
+            y: 400
+            width: 160
+            height: 80
+            bg_color: 0xFFFFFF
+            bg_opa: 0%
+            border_width: 0
+            border_color: 0xE0E0E0
+            radius: 0
+            pad_all: 0
+            widgets:
+              - label:
+                  id: widget_1787496878821_et21mosfj
+                  x: 5
+                  y: 0
+                  width: 95
+                  height: 22
+                  text: "PM 10"
+                  text_color: 0xFAFAFA
+                  text_align: AUTO
+                  text_font: montserrat_16
+                  opa: 65%
+              - label:
+                  id: pm10_value_lvgl
+                  x: 5
+                  y: 33
+                  width: 65
+                  height: 35
+                  text: "--"
+                  text_color: 0xFAFAFA
+                  text_align: AUTO
+                  text_font: montserrat_26
+
+        - obj:
+            id: widget_1787496882913_ji7tb65mo
+            x: 0
+            y: 400
+            width: 160
+            height: 80
+            bg_color: 0xFFFFFF
+            bg_opa: 0%
+            border_width: 0
+            border_color: 0xE0E0E0
+            radius: 0
+            pad_all: 0
+            widgets:
+              - label:
+                  id: widget_1787496882913_tnfc717w6
+                  x: 5
+                  y: 0
+                  width: 95
+                  height: 22
+                  text: "PM 4.0"
+                  text_color: 0xFAFAFA
+                  text_align: AUTO
+                  text_font: montserrat_16
+                  opa: 65%
+              - label:
+                  id: pm4_value_lvgl
+                  x: 5
+                  y: 33
+                  width: 65
+                  height: 35
+                  text: "--"
+                  text_color: 0xFAFAFA
+                  text_align: AUTO
+                  text_font: montserrat_26
+
+        - obj:
+            id: lv_obj_6
+            x: 230
+            y: 0
+            width: 90
+            height: 25
+            bg_color: 0xFFFFFF
+            bg_opa: 0%
+            border_width: 0
+            border_color: 0xE0E0E0
+            pad_all: 0
+            widgets:
+              - label:
+                  id: time_label
+                  x: 25
+                  y: 2
+                  width: 65
+                  height: 22
+                  text: "00:00"
+                  text_color: 0xFAFAFA
+                  text_align: CENTER
+                  text_font: montserrat_16
+                  opa: 65%
+              - label:
+                  id: wifi_icon
+                  x: 5
+                  y: 3
+                  width: 20
+                  height: 20
+                  text: "\U000F0928"
+                  text_font: mdi_icons_19
+                  text_align: CENTER
+                  text_color: 0xFFFFFF
+
+        - obj:
+            id: aqi_ring
+            x: 78
+            y: 25
+            width: 165
+            height: 165
+            bg_color: 0xFFFFFF
+            bg_opa: 0%
+            border_width: 3
+            border_color: 0x00E5FF
+            radius: 9999
+            pad_all: 0
+            widgets:
+              - label:
+                  id: aqi_value_lvgl
+                  x: 58
+                  y: 63
+                  width: 45
+                  height: 35
+                  text: "--"
+                  text_color: 0xFAFAFA
+                  text_align: CENTER
+                  text_font: montserrat_40
+              - label:
+                  id: widget_1787495786853_nzj9lthwc
+                  x: 53
+                  y: 26
+                  width: 55
+                  height: 20
+                  text: "AQI"
+                  text_color: 0xFAFAFA
+                  text_align: CENTER
+                  text_font: montserrat_18
+                  opa: 65%
+              - label:
+                  id: aqi_fb
+                  x: 55
+                  y: 115
+                  text: "Good"
+                  text_color: 0xFFFFFF
+                  text_font: comfortaa_18b
