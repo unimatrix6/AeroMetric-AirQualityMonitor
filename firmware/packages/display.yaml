@@ -13,7 +13,7 @@ wifi:
   on_disconnect:
     then:
       - lvgl.label.update:
-          id: wifi_icon
+          id: lv_icon_2
           text_color: 0xff0000  # Red when disconnected
 
 
