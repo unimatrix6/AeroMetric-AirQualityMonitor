@@ -6,8 +6,7 @@
 > **PROJECT NOT FINISHED!**
 >  Project is still in the works!
 >  Files for Enclosure are missing!
->  Firmware file structure is currently being reworked and may not work correctly
->  Building instructions arent 
+>  Firmware file structure is currently being reworked and code may not work correctly
 
 
 DIY air quality monitor built around an ESP32 and a Sensirion SEN54 sensor. The project is designed to display air quality data locally on a small color display and provide a simple, affordable platform for indoor air monitoring.
