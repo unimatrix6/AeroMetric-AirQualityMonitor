@@ -121,7 +121,7 @@ lvgl:
       scrollbar_mode: "OFF"
       widgets:
         - arc:
-            id: aqi-arc
+            id: aqiarc
             x: 85
             y: 55
             width: 150
