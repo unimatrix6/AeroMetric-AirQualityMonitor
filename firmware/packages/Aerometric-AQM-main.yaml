@@ -1,1 +1,10 @@
+packages:
+  aerometric_project:
+    url: https://github.com
+    ref: main
+    files:
+      - packages/common.yaml
+      - packages/sensors.yaml
+      - packages/display.yaml
+    refresh: 1d
 
