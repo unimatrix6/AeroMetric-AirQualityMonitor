@@ -29,3 +29,4 @@ wifi:
   ap:
     ssid: "AeroMetric-Setuphotspot"
 
+mdns:
