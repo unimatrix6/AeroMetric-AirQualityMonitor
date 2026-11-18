@@ -8,12 +8,12 @@ wifi:
   on_connect:
     then:
       - lvgl.label.update:
-          id: lv_icon_2
+          id: wifi_icon
           text_color: 0xCCCCCC  # White when connected
   on_disconnect:
     then:
       - lvgl.label.update:
-          id: lv_icon_2
+          id: wifi_icon
           text_color: 0xff0000  # Red when disconnected
 
 
@@ -113,15 +113,57 @@ font:
       "\U000F058E",  # Humidity
     ]
 
+
+
+   
+    
 lvgl:
+      
   pages:
+    
+    - id: loading_screen
+      bg_color: 0x000000
+      pad_all: 0
+      scrollbar_mode: "OFF"
+      widgets:
+        - image:
+            id: lv_image_38
+            x: 88
+            y: 125
+            width: 145
+            height: 135
+            src: img_esphome
+
+        - spinner:
+            id: lv_spinner_40
+            x: 113
+            y: 285
+            width: 95
+            height: 105
+            spin_time: 1000ms
+            arc_length: 60deg
+            indicator:
+              arc_color: 0x18BCF2
+              arc_width: 12
+
+        - label:
+            id: lv_label_41
+            x: 60
+            y: 415
+            width: 200
+            height: 30
+            text: "Setting up..."
+            text_color: 0xFFFFFF
+            text_align: CENTER
+            text_font: montserrat_30b
+
     - id: canvas_1
       bg_color: 0x111111
       pad_all: 0
       scrollbar_mode: "OFF"
       widgets:
         - arc:
-            id: aqiarc
+            id: aqi_arc
             x: 85
             y: 55
             width: 150
@@ -140,7 +182,7 @@ lvgl:
               arc_rounded: true
 
         - label:
-            id: lv_label_1
+            id: time_label
             x: 265
             y: 0
             width: 55
@@ -161,7 +203,7 @@ lvgl:
             text_font: montserrat_16b
 
         - label:
-            id: lv_icon_2
+            id: wifi_icon
             x: 235
             y: 0
             width: 20
