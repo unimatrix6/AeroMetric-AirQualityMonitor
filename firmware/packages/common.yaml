@@ -39,7 +39,7 @@ time:
       - seconds: 0
         then:
           - lvgl.label.update:
-              id: time_label
+              id: lv_label_1
               text: !lambda |-
                 static char buf[16];
                 auto time_now = id(my_time).now();
