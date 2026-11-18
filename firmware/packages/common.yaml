@@ -2,7 +2,7 @@ esphome:
   name: ${device_name}
   friendly_name: ${friendly_name}
   min_version: 2026.4.0
-  name_add_mac_suffix: true
+  name_add_mac_suffix: false
 
 esp32:
   board: esp32
