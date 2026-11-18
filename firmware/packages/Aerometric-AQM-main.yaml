@@ -1,10 +1,10 @@
 packages:
   aerometric_project:
-    url: https://github.com
+    url: https://github.com/unimatrix6/AeroMetric-AirQualityMonitor/
     ref: main
     files:
-      - packages/common.yaml
-      - packages/sensors.yaml
-      - packages/display.yaml
+      - firmware/packages/common.yaml
+      - firmware/packages/sensors.yaml
+      - firmware/packages/display.yaml
     refresh: 1d
 
