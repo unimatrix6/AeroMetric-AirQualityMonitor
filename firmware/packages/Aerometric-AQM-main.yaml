@@ -5,7 +5,7 @@ substitutions:
 packages:
   aerometric_project:
     url: https://github.com/unimatrix6/AeroMetric-AirQualityMonitor/
-    ref: main
+    ref: dev
     files:
       - firmware/packages/common.yaml
       - firmware/packages/sensors.yaml
