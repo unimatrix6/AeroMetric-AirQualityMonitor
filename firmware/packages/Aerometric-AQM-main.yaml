@@ -1,3 +1,7 @@
+substitutions:
+  device_name: "aerometric-monitor"
+  friendly_name: "AeroMetric Airquality Monitor"
+
 packages:
   aerometric_project:
     url: https://github.com/unimatrix6/AeroMetric-AirQualityMonitor/
