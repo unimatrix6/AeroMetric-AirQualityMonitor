@@ -8,7 +8,7 @@ wifi:
   on_connect:
     then:
       - lvgl.label.update:
-          id: wifi_icon
+          id: lv_icon_2
           text_color: 0xCCCCCC  # White when connected
   on_disconnect:
     then:
