@@ -17,13 +17,24 @@ DIY air quality monitor built around an ESP32 and a Sensirion SEN54 sensor. The 
 </p>
 
 
-## 📊Recommended HA cards 
+## 📊Recommended HA cards
 
+AeroMetric publishes Humidity, PM 1.0, PM 2.5, PM 4.0, PM 10.0, Temperature, VOC Index and AQI to Home Assistant through ESPHome. [Nodalia Cards](https://github.com/danielmigueltejedor/nodalia-cards) is a suite of 25 cards that share one design, so those readings can sit on the same dashboard as the rest of the home.
 
+<p align="left">
+  <a href="https://github.com/danielmigueltejedor/nodalia-cards">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielmigueltejedor/nodalia-cards/main/docs/images/nodalia-cards-logo-white.svg">
+      <img src="https://raw.githubusercontent.com/danielmigueltejedor/nodalia-cards/main/docs/images/nodalia-cards-logo-black.svg" alt="Nodalia Cards" width="350">
+    </picture>
+  </a>
+</p>
 
-<a href="https://github.com/danielmigueltejedor/nodalia-cards">
-  <img src="https://raw.githubusercontent.com/danielmigueltejedor/nodalia-cards/main/docs/images/nodalia-cards-logo-white.svg" alt="Nodalia Cards" width="350">
-</a>
+- **Circular Gauge** for one reading, such as AQI or PM 2.5.
+- **Graph** for Humidity, particulate matter, Temperature and VOC Index over time.
+- **Entity** for the current values next to the other devices in the room.
+
+Install it from HACS and reload Home Assistant: [Open Nodalia Cards in HACS](https://my.home-assistant.io/redirect/hacs_repository/?owner=danielmigueltejedor&repository=nodalia-cards&category=plugin).
 
 
 
