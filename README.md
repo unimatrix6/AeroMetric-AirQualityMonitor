@@ -20,11 +20,13 @@ DIY air quality monitor built around an ESP32 and a Sensirion SEN54 sensor. The 
 ## 📊Recommended HA cards 
 
 
-
+### Nodalia Cards by @danielmigueltejedor
 <a href="https://github.com/danielmigueltejedor/nodalia-cards">
   <img src="https://raw.githubusercontent.com/danielmigueltejedor/nodalia-cards/main/docs/images/nodalia-cards-logo-white.svg" alt="Nodalia Cards" width="350">
 </a>
 
+Nodalia Cards is a Card Bundle for Homeassistant which offers a functional but clean look and introduces haptic feedback for Card interactions.
+Nodalia Cards is perfect for displaying live Values from the Aerometric Air Quality Monitor with Nodalias built in Air Quality card.
 
 
 
