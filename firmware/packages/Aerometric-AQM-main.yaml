@@ -12,3 +12,5 @@ packages:
       - firmware/packages/display.yaml
     refresh: 1d
 
+    #Copyright (C) 2026 [unimatrix6]. Licensed under the GNU GPL v3.
+

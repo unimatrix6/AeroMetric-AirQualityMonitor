@@ -1,3 +1,5 @@
+#Copyright (C) 2026 [unimatrix6]. Licensed under the GNU GPL v3.
+
 esphome:
   on_boot:
     then:

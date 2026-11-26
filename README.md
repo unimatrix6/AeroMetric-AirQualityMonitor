@@ -100,3 +100,7 @@ You can always change the UI by making your own one and replacing the canvas_1 c
 - The ILI9488 display is used for local visualization.
 - ESP Home is used for Simple Smarthome integration.
 - DIY PCB using a Perfboard keeps the Build tidy and durable.
+
+
+## License
+Copyright (C) 2026 [unimatrix6]. Licensed under the GNU GPL v3.
