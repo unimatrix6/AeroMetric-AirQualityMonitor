@@ -141,4 +141,15 @@ For More Information Visit https://esphome.io/guides/getting_started_hassio/
 3. When you first launch the ESPHome Device Builder on macOS, Windows, or Linux, it automatically configures its built-in Python environment in the background and opens the dashboard in your default browser. For quick access, the ESPHome icon nests into your macOS menu bar, Windows notification area, or Linux system tray. From this icon, you can instantly open the dashboard, check for updates, or close the app. NOTE: Some Linux desktops (notably GNOME without a tray extension) don’t show tray icons at all. The app still runs; use the dashboard in your browser.
 4. then just set up your device just like described in Option 1
 
+# Loading your own/changed code on your device
+> [!Note]
+> Only for Experienced ESPhome Users
+You have designed your Own UI or Made some other changes on the code and now want to use it on your device? Here's is a small guide for you.
+1. Fork this Repository
+2. Make your changes in the code and load them to your repository
+> [!Note]
+> Make sure IDs of every entity match or it wont work (it will probably fail in compiling/validation)
+> Also make sure the file structure matches
+3. Change the URL in the AeroMetric-AQM-main file from the original URL to the URL of your Repository
+4. Copy paste the AeroMetric-AQM-main file into the ESPHome Device Builder and upload it to your device
 
