@@ -142,7 +142,7 @@ For More Information Visit https://esphome.io/guides/getting_started_hassio/
 4. then just set up your device just like described in Option 1
 
 # Loading your own/changed code on your device
-> [!Note]
+> [!Warning]
 > Only for Experienced ESPhome Users
 You have designed your Own UI or Made some other changes on the code and now want to use it on your device? Here's is a small guide for you.
 1. Fork this Repository
